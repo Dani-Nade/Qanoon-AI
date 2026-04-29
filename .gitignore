@@ -1,0 +1,17 @@
+# Data outputs (too large for git)
+data/extracted/
+data/cleaned/
+data/chunks/
+vector_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

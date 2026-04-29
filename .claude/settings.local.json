@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import pdfplumber; import numpy; import tqdm; print\\('pdfplumber, numpy, tqdm: ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import sentence_transformers; import faiss; print\\('sentence-transformers:', sentence_transformers.__version__\\); print\\('faiss: ok'\\)\")",
+      "Bash(python3 -m pipeline.extract)",
+      "Bash(python3 -m pipeline.clean)",
+      "Bash(python3 -m pipeline.chunk)",
+      "Bash(python3 -m pipeline.embed)",
+      "Bash(python3 training/qa_generator.py)",
+      "Bash(python3 -c \"import torch; print\\('CUDA:', torch.cuda.is_available\\(\\)\\); print\\('GPU:', torch.cuda.get_device_name\\(0\\) if torch.cuda.is_available\\(\\) else 'None'\\)\")",
+      "Bash(python3 training/train.py)"
+    ]
+  }
+}
