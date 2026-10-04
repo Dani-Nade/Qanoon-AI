@@ -5,6 +5,7 @@ from __future__ import annotations
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from qanoon_ai.api.routes.case_strength import router as case_strength_router
 from qanoon_ai.api.routes.chat import router as chat_router
 from qanoon_ai.api.routes.documents import router as documents_router
 from qanoon_ai.api.routes.health import router as health_router
@@ -25,6 +26,7 @@ def create_app() -> FastAPI:
     app.include_router(query_router)
     app.include_router(chat_router)
     app.include_router(documents_router)
+    app.include_router(case_strength_router)
     return app
 
 

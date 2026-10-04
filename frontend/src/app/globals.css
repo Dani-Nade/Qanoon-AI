@@ -618,6 +618,34 @@ button:focus-visible {
   margin-top: 12px;
 }
 
+.sources-chip.strength-good {
+  background: rgba(43, 179, 172, 0.18);
+  color: #bdf0ec;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.sources-chip.strength-warn {
+  background: rgba(230, 180, 0, 0.18);
+  color: #e8cf6a;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.sources-chip.strength-bad {
+  background: rgba(234, 120, 20, 0.18);
+  color: #f3b187;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.sources-chip.strength-muted {
+  background: var(--surface-2);
+  color: var(--muted);
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
 .composer {
   align-items: end;
   background: var(--surface);

@@ -145,6 +145,25 @@ export async function streamChat(
   await readEvents(response, onEvent);
 }
 
+/** Stream a case strength estimate; the events match /chat. */
+export async function streamCaseStrength(
+  facts: string,
+  jurisdiction: string | null,
+  onEvent: (event: ChatEvent) => void,
+  signal?: AbortSignal
+): Promise<void> {
+  const response = await fetch(`${API_BASE_URL}/case-strength`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ facts, jurisdiction }),
+    signal
+  });
+  if (!response.ok || !response.body) {
+    throw new Error(await readError(response));
+  }
+  await readEvents(response, onEvent);
+}
+
 /** Stream a document explanation; the events match /chat. */
 export async function streamDocumentExplanation(
   id: string,

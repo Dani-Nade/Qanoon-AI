@@ -7,6 +7,7 @@ import {
   ExternalLink,
   FileSearch,
   FileText,
+  Gavel,
   Loader2,
   MessageSquarePlus,
   Scale,
@@ -182,6 +183,11 @@ export default function Home() {
         <Link className="sidebar-link" href="/documents">
           <FileSearch size={16} />
           <span>Read a document</span>
+        </Link>
+
+        <Link className="sidebar-link" href="/case-strength">
+          <Gavel size={16} />
+          <span>Estimate case strength</span>
         </Link>
 
         <section className="control-group" aria-labelledby="jurisdiction-label">
