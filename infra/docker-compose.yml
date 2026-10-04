@@ -1,0 +1,79 @@
+name: qanoon-ai
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-qanoon}
+      POSTGRES_USER: ${POSTGRES_USER:-qanoon}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-qanoon}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-qanoon} -d ${POSTGRES_DB:-qanoon}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    environment:
+      QANOON_ROOT: /workspace
+      QANOON_BACKEND_DIR: /workspace/backend
+      QANOON_DATABASE_URL: postgresql://${POSTGRES_USER:-qanoon}:${POSTGRES_PASSWORD:-qanoon}@postgres:5432/${POSTGRES_DB:-qanoon}
+      QANOON_RETRIEVAL_MODE: postgres
+      QANOON_EMBEDDING_MODEL: ${QANOON_EMBEDDING_MODEL:-BAAI/bge-m3}
+      QANOON_EMBEDDING_REVISION: ${QANOON_EMBEDDING_REVISION-5617a9f61b028005a4858fdac845db406aefb181}
+      QANOON_RERANKER_MODEL: ${QANOON_RERANKER_MODEL:-BAAI/bge-reranker-v2-m3}
+      QANOON_RERANKER_MIN_SCORE: ${QANOON_RERANKER_MIN_SCORE:-0.35}
+      QANOON_EMBEDDING_DIMENSION: ${QANOON_EMBEDDING_DIMENSION:-1024}
+      QANOON_INDEXING_BATCH_SIZE: ${QANOON_INDEXING_BATCH_SIZE:-32}
+      QANOON_INDEXING_WORKERS: ${QANOON_INDEXING_WORKERS:-4}
+      QANOON_ENABLE_OCR: ${QANOON_ENABLE_OCR:-true}
+      QANOON_OLLAMA_URL: ${QANOON_OLLAMA_URL:-http://host.docker.internal:11434}
+      QANOON_CHAT_MODEL: ${QANOON_CHAT_MODEL:-qwen3.5:9b}
+      HF_HOME: /workspace/data/cache/huggingface
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ../datasets:/workspace/datasets:ro
+      - ../data:/workspace/data
+      - ../models:/workspace/models
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    profiles: ["workers"]
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:latest
+    profiles: ["object-storage"]
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-qanoon}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-qanoon-development-only}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:

@@ -1,0 +1,460 @@
+{
+  "version": "2026-08-08",
+  "sources": [
+    {
+      "source_id": "federal_pakistan_code",
+      "name": "Pakistan Code - Ministry of Law and Justice",
+      "jurisdiction": "federal",
+      "homepage": "https://pakistancode.gov.pk/english/index.php",
+      "seed_urls": [
+        "https://pakistancode.gov.pk/english/index.php",
+        "https://pakistancode.gov.pk/english/LGu0xBD.php",
+        "https://pakistancode.gov.pk/english/LGu0xAD.php"
+      ],
+      "allowed_domains": [
+        "pakistancode.gov.pk",
+        "drs.molaw.gov.pk"
+      ],
+      "document_scope": [
+        "constitution",
+        "federal_acts",
+        "ordinances",
+        "subordinate_legislation",
+        "codes"
+      ],
+      "notes": "Primary federal law source. Pakistan Code states users should refer to original Gazette notifications when in doubt."
+    },
+    {
+      "source_id": "punjab_laws_online",
+      "name": "Punjab Laws Online",
+      "jurisdiction": "punjab",
+      "homepage": "https://www.punjablaws.gov.pk/",
+      "seed_urls": [
+        "https://www.punjablaws.gov.pk/",
+        "https://www.punjablaws.gov.pk/chronyeartable.php",
+        "https://www.punjablaws.gov.pk/chrongazetteyeartable.php",
+        "https://www.punjablaws.gov.pk/chronrepealyeartable.php"
+      ],
+      "allowed_domains": [
+        "punjablaws.gov.pk",
+        "www.punjablaws.gov.pk"
+      ],
+      "document_scope": [
+        "punjab_acts",
+        "punjab_gazette_notifications",
+        "repealed_laws"
+      ],
+      "notes": "Official Punjab law database with current and repealed laws."
+    },
+    {
+      "source_id": "punjab_code",
+      "name": "The Punjab Code",
+      "jurisdiction": "punjab",
+      "homepage": "https://punjabcode.punjab.gov.pk/",
+      "seed_urls": [
+        "https://punjabcode.punjab.gov.pk/",
+        "https://punjabcode.punjab.gov.pk/en/get_laws",
+        "https://punjabcode.punjab.gov.pk/en/get_rules",
+        "https://punjabcode.punjab.gov.pk/en/chronological"
+      ],
+      "allowed_domains": [
+        "punjabcode.punjab.gov.pk"
+      ],
+      "document_scope": [
+        "punjab_principal_laws",
+        "punjab_subordinate_laws",
+        "rules"
+      ],
+      "notes": "Punjab Code provides free access to principal and delegated/subordinate laws."
+    },
+    {
+      "source_id": "sindh_laws",
+      "name": "Sindh Law, Parliamentary Affairs and Criminal Prosecution Department",
+      "jurisdiction": "sindh",
+      "homepage": "https://www.sindhlaws.gov.pk/",
+      "seed_urls": [
+        "https://www.sindhlaws.gov.pk/",
+        "https://www.sindhlaws.gov.pk/SindhIndex.aspx",
+        "https://www.sindhlaws.gov.pk/Gazette.aspx?pg=ACT",
+        "https://www.sindhlaws.gov.pk/Gazette.aspx?pg=ORD"
+      ],
+      "allowed_domains": [
+        "sindhlaws.gov.pk",
+        "www.sindhlaws.gov.pk"
+      ],
+      "document_scope": [
+        "sindh_acts",
+        "ordinances",
+        "rules",
+        "notifications"
+      ],
+      "notes": "Official Sindh law department source."
+    },
+    {
+      "source_id": "sindh_assembly_acts",
+      "name": "Provincial Assembly of Sindh - Acts",
+      "jurisdiction": "sindh",
+      "homepage": "https://www.pas.gov.pk/acts",
+      "seed_urls": [
+        "https://www.pas.gov.pk/acts"
+      ],
+      "allowed_domains": [
+        "pas.gov.pk",
+        "www.pas.gov.pk"
+      ],
+      "document_scope": [
+        "sindh_acts",
+        "assembly_legislation"
+      ],
+      "notes": "Assembly legislation source for Sindh acts."
+    },
+    {
+      "source_id": "kp_code_laws",
+      "name": "Khyber Pakhtunkhwa Code - Laws",
+      "jurisdiction": "khyber_pakhtunkhwa",
+      "homepage": "https://kpcode.kp.gov.pk/homepage/list_all_law/0/15/225",
+      "seed_urls": [
+        "https://kpcode.kp.gov.pk/homepage/list_all_law/0/15/225",
+        "https://kpcode.kp.gov.pk/homepage/categorical"
+      ],
+      "allowed_domains": [
+        "kpcode.kp.gov.pk"
+      ],
+      "document_scope": [
+        "kp_acts",
+        "kp_laws"
+      ],
+      "notes": "Official KP Code source for provincial laws."
+    },
+    {
+      "source_id": "kp_code_rules",
+      "name": "Khyber Pakhtunkhwa Code - Rules",
+      "jurisdiction": "khyber_pakhtunkhwa",
+      "homepage": "https://kpcode.kp.gov.pk/homepage/rules",
+      "seed_urls": [
+        "https://kpcode.kp.gov.pk/homepage/rules"
+      ],
+      "allowed_domains": [
+        "kpcode.kp.gov.pk"
+      ],
+      "document_scope": [
+        "kp_rules",
+        "subordinate_legislation"
+      ],
+      "notes": "Official KP Code source for rules."
+    },
+    {
+      "source_id": "balochistan_code_laws",
+      "name": "Balochistan Code - Laws",
+      "jurisdiction": "balochistan",
+      "homepage": "https://balochistancode.gob.pk/",
+      "seed_urls": [
+        "https://balochistancode.gob.pk/",
+        "https://balochistancode.gob.pk/laws_rules.aspx?opento=1&wise=departmental",
+        "https://balochistancode.gob.pk/laws_rules.aspx?opento=1&wise=chronological"
+      ],
+      "allowed_domains": [
+        "balochistancode.gob.pk"
+      ],
+      "document_scope": [
+        "balochistan_acts",
+        "ordinances",
+        "laws"
+      ],
+      "notes": "Official Balochistan law database."
+    },
+    {
+      "source_id": "balochistan_code_rules",
+      "name": "Balochistan Code - Rules",
+      "jurisdiction": "balochistan",
+      "homepage": "https://balochistancode.gob.pk/laws_rules.aspx?opento=2&wise=srbdr",
+      "seed_urls": [
+        "https://balochistancode.gob.pk/laws_rules.aspx?opento=2&wise=srbdr",
+        "https://balochistancode.gob.pk/laws_rules.aspx?opento=2&wise=chronological"
+      ],
+      "allowed_domains": [
+        "balochistancode.gob.pk"
+      ],
+      "document_scope": [
+        "balochistan_rules",
+        "service_rules",
+        "subordinate_legislation"
+      ],
+      "notes": "Official Balochistan rules database."
+    },
+    {
+      "source_id": "sindh_high_court_laws",
+      "name": "High Court of Sindh - Laws, Acts, Ordinances and Rules",
+      "jurisdiction": "courts_sindh",
+      "homepage": "https://sindhhighcourt.gov.pk/laws.php",
+      "seed_urls": [
+        "https://sindhhighcourt.gov.pk/laws.php"
+      ],
+      "allowed_domains": [
+        "sindhhighcourt.gov.pk"
+      ],
+      "document_scope": [
+        "court_rules",
+        "judicial_service_rules",
+        "court_related_acts"
+      ],
+      "notes": "Official Sindh High Court rules/laws page with direct downloadable PDFs."
+    },
+    {
+      "source_id": "islamabad_high_court_rules",
+      "name": "Islamabad High Court - Rules",
+      "jurisdiction": "courts_federal_ict",
+      "homepage": "https://mis.ihc.gov.pk/frmDetails?Type=10",
+      "seed_urls": [
+        "https://mis.ihc.gov.pk/frmDetails?Type=10"
+      ],
+      "allowed_domains": [
+        "mis.ihc.gov.pk",
+        "ihc.gov.pk"
+      ],
+      "document_scope": [
+        "court_rules",
+        "practice_rules"
+      ],
+      "notes": "Official Islamabad High Court rules/download area."
+    },
+    {
+      "source_id": "lahore_high_court_downloads",
+      "name": "Lahore High Court - Downloads",
+      "jurisdiction": "courts_punjab",
+      "homepage": "https://lhc.gov.pk/downloads",
+      "seed_urls": [
+        "https://lhc.gov.pk/downloads"
+      ],
+      "allowed_domains": [
+        "lhc.gov.pk"
+      ],
+      "document_scope": [
+        "court_rules",
+        "court_downloads"
+      ],
+      "notes": "Official Lahore High Court downloads page."
+    },
+    {
+      "source_id": "peshawar_high_court_downloads",
+      "name": "Peshawar High Court - Downloads and Orders",
+      "jurisdiction": "courts_khyber_pakhtunkhwa",
+      "homepage": "https://peshawarhighcourt.gov.pk/",
+      "seed_urls": [
+        "https://peshawarhighcourt.gov.pk/"
+      ],
+      "allowed_domains": [
+        "peshawarhighcourt.gov.pk"
+      ],
+      "document_scope": [
+        "court_rules",
+        "court_downloads",
+        "practice_directions"
+      ],
+      "notes": "Official Peshawar High Court source; may need deeper crawling for all downloadable rules."
+    },
+    {
+      "source_id": "federal_shariat_court_judgments",
+      "name": "Federal Shariat Court - Judgments",
+      "jurisdiction": "courts_federal",
+      "homepage": "https://federalshariatcourt.gov.pk/alljud.php",
+      "seed_urls": [
+        "https://federalshariatcourt.gov.pk/alljud.php"
+      ],
+      "allowed_domains": [
+        "federalshariatcourt.gov.pk"
+      ],
+      "document_scope": [
+        "reported_judgments",
+        "shariat_petitions",
+        "criminal_appeals"
+      ],
+      "document_url_patterns": [
+        "/(?:judgments?|judgements?)/.*\\.pdf$"
+      ],
+      "filename_strategy": "url_hash_prefix",
+      "notes": "Official all-judgments index; the site contains inconsistent path casing and duplicate filenames."
+    },
+    {
+      "source_id": "lahore_high_court_reported_judgments",
+      "name": "Lahore High Court - Judgments Approved for Reporting",
+      "jurisdiction": "courts_punjab",
+      "homepage": "https://data.lhc.gov.pk/reported_judgments/judgments_approved_for_reporting",
+      "seed_urls": [
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2010&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2011&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2012&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2013&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2014&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2015&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2016&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2017&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2018&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2019&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2020&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2021&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2022&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2023&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2024&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2025&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1=",
+        "https://data.lhc.gov.pk/dynamic/approved_judgments_result_new.php?year=2026&debug=0&courtName=All%20Courts&caseNumber=&citationTag=&partyName=&decisionDate0=&decisionDate1=&uploadDate=&uploadDate1="
+      ],
+      "allowed_domains": [
+        "data.lhc.gov.pk",
+        "sys.lhc.gov.pk"
+      ],
+      "document_scope": [
+        "reported_judgments"
+      ],
+      "document_url_patterns": [
+        "sys\\.lhc\\.gov\\.pk/appjudgments/.*\\.pdf$"
+      ],
+      "url_rewrites": [
+        {
+          "from": "https://sys.lhc.gov.pk/",
+          "to": "http://sys.lhc.gov.pk/"
+        }
+      ],
+      "notes": "Official year-search endpoint. The document host currently serves working PDFs over HTTP while its advertised HTTPS endpoint has a broken TLS configuration."
+    },
+    {
+      "source_id": "peshawar_high_court_reported_judgments",
+      "name": "Peshawar High Court - Reported Judgments",
+      "jurisdiction": "courts_khyber_pakhtunkhwa",
+      "homepage": "https://peshawarhighcourt.gov.pk/app/site/47/c/All_the_Referred,Reported_Judgments.html",
+      "seed_urls": [
+        "https://peshawarhighcourt.gov.pk/PHCCMS/reportedJudgments.php?action=search"
+      ],
+      "seed_method": "POST",
+      "seed_form_data": {
+        "year": "0",
+        "judge": "0",
+        "category": "0",
+        "txtsearchbyremarks": "",
+        "submit": "search"
+      },
+      "allowed_domains": [
+        "peshawarhighcourt.gov.pk",
+        "www.peshawarhighcourt.gov.pk"
+      ],
+      "document_scope": [
+        "reported_judgments"
+      ],
+      "document_url_patterns": [
+        "/PHCCMS/+judgments/.*\\.pdf$"
+      ],
+      "filename_strategy": "url_hash_prefix",
+      "notes": "Official reported-judgment database; discovery requires submitting its all-years search form."
+    },
+    {
+      "source_id": "balochistan_high_court_reported_judgments",
+      "name": "High Court of Balochistan - Reported and Significant Judgments",
+      "jurisdiction": "courts_balochistan",
+      "homepage": "https://bhc.gov.pk/resources/judgments",
+      "seed_urls": [
+        "https://bhc.gov.pk/resources/judgments"
+      ],
+      "allowed_domains": [
+        "bhc.gov.pk"
+      ],
+      "document_scope": [
+        "reported_judgments",
+        "significant_judgments"
+      ],
+      "document_url_patterns": [
+        "/media/judgments/.*\\.pdf$"
+      ],
+      "crawl_url_patterns": [
+        "/resources/judgments(?:/|$)"
+      ],
+      "filename_strategy": "url_hash_prefix",
+      "notes": "Official judge- and year-organized judgment collection; document URLs are embedded in data-src attributes."
+    },
+    {
+      "source_id": "gilgit_baltistan_government_acts",
+      "name": "Government of Gilgit-Baltistan - Acts",
+      "jurisdiction": "gilgit_baltistan",
+      "homepage": "https://gilgitbaltistan.gov.pk/pages/acts",
+      "seed_urls": [
+        "https://gilgitbaltistan.gov.pk/pages/acts"
+      ],
+      "allowed_domains": [
+        "gilgitbaltistan.gov.pk"
+      ],
+      "document_scope": [
+        "gb_acts",
+        "adaptation_of_laws",
+        "finance_acts"
+      ],
+      "document_url_patterns": [
+        "/storage/downloads/.*\\.pdf$"
+      ],
+      "notes": "Official Government of Gilgit-Baltistan Act Downloads page."
+    },
+    {
+      "source_id": "gilgit_baltistan_assembly_acts",
+      "name": "Gilgit-Baltistan Assembly - Acts",
+      "jurisdiction": "gilgit_baltistan",
+      "homepage": "https://gba.gov.pk/acts/",
+      "seed_urls": [
+        "https://gba.gov.pk/acts/"
+      ],
+      "allowed_domains": [
+        "gba.gov.pk"
+      ],
+      "document_scope": [
+        "assembly_acts",
+        "rules_of_procedure"
+      ],
+      "document_url_patterns": [
+        "/(?:wp-content|gba/tables/alldocuments/actdocx)/.*\\.pdf$"
+      ],
+      "verify_tls": false,
+      "notes": "Official Assembly legislation source. TLS verification is disabled only for this source because its public certificate is currently expired; hashes and URLs remain recorded."
+    },
+    {
+      "source_id": "ajk_legislative_assembly_acts",
+      "name": "AJK Legislative Assembly - Acts",
+      "jurisdiction": "azad_jammu_kashmir",
+      "homepage": "https://ajkassembly.gok.pk/acts/",
+      "seed_urls": [
+        "https://ajkassembly.gok.pk/acts/",
+        "https://ajkassembly.gok.pk/wp-content/uploads/2022/04/Act-1974.pdf"
+      ],
+      "allowed_domains": [
+        "ajkassembly.gok.pk"
+      ],
+      "document_scope": [
+        "assembly_acts",
+        "interim_constitution"
+      ],
+      "document_url_patterns": [
+        "/(?:wp-content|ajk/tables/alldocuments/actdocx)/.*\\.pdf$"
+      ],
+      "notes": "Official Assembly source. The index currently returns HTTP 508 loops, although direct official PDFs remain reachable."
+    },
+    {
+      "source_id": "ajk_election_commission_laws",
+      "name": "AJK Election Commission - Election Laws",
+      "jurisdiction": "azad_jammu_kashmir",
+      "homepage": "https://ec.ajk.gov.pk/election-laws/",
+      "seed_urls": [
+        "https://ec.ajk.gov.pk/election-laws/",
+        "https://ec.ajk.gov.pk/election-acts/",
+        "https://ec.ajk.gov.pk/election-rules/"
+      ],
+      "allowed_domains": [
+        "ec.ajk.gov.pk"
+      ],
+      "document_scope": [
+        "election_acts",
+        "election_rules"
+      ],
+      "document_url_patterns": [
+        ".*\\.pdf$"
+      ],
+      "filename_strategy": "url_hash_prefix",
+      "notes": "Official AJK Election Commission legislation pages."
+    }
+  ]
+}

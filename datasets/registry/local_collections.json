@@ -1,0 +1,23 @@
+{
+  "version": "2026-08-08",
+  "collections": [
+    {
+      "collection_id": "pakistan_code_archive",
+      "display_name": "Pakistan Code Federal Legislation Archive",
+      "jurisdiction": "federal",
+      "authority_type": "legislation",
+      "provenance_status": "legacy_source_unverified",
+      "legal_currentness": "unverified",
+      "dataset_path": "raw/federal/pakistan_code_archive/by_enactment_year",
+      "compatibility_source_path": "../pdfs",
+      "organization": "by_enactment_year",
+      "year_range": {
+        "from": 1947,
+        "to": 2026
+      },
+      "pdf_count": 1099,
+      "copy_policy": "The root pdfs folder is preserved; this dataset copy is the ingestion location.",
+      "scope_note": "Federal and historically Pakistan Code-associated legislation. This collection does not represent complete provincial, territorial, judicial, gazette, or tribunal coverage."
+    }
+  ]
+}

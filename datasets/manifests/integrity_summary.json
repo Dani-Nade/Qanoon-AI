@@ -1,0 +1,62 @@
+{
+  "generated_at_utc": "2026-08-09T17:06:15.997571+00:00",
+  "raw_pdf_files": 18260,
+  "curated_records": 18260,
+  "canonical_records": 18260,
+  "quarantined_records": 0,
+  "unique_content_hashes": 18260,
+  "duplicate_file_copies": 0,
+  "total_bytes": 12677138493,
+  "by_source": {
+    "ajk_election_commission_laws": 5,
+    "ajk_legislative_assembly_acts": 1,
+    "balochistan_code_laws": 259,
+    "balochistan_high_court_reported_judgments": 2000,
+    "federal_pakistan_code": 127,
+    "federal_shariat_court_judgments": 828,
+    "gilgit_baltistan_assembly_acts": 79,
+    "gilgit_baltistan_government_acts": 15,
+    "islamabad_high_court_rules": 40,
+    "kp_code_laws": 160,
+    "kp_code_rules": 29,
+    "lahore_high_court_reported_judgments": 4671,
+    "pakistan_code_archive": 721,
+    "peshawar_high_court_reported_judgments": 5674,
+    "punjab_code": 106,
+    "punjab_laws_online": 63,
+    "sindh_assembly_acts": 192,
+    "sindh_high_court_laws": 39,
+    "sindh_laws": 3251
+  },
+  "by_jurisdiction": {
+    "azad_jammu_kashmir": 6,
+    "balochistan": 259,
+    "courts_balochistan": 2000,
+    "courts_federal": 828,
+    "courts_federal_ict": 40,
+    "courts_khyber_pakhtunkhwa": 5674,
+    "courts_punjab": 4671,
+    "courts_sindh": 39,
+    "federal": 848,
+    "gilgit_baltistan": 94,
+    "khyber_pakhtunkhwa": 189,
+    "punjab": 169,
+    "sindh": 3443
+  },
+  "by_document_type": {
+    "act": 779,
+    "code": 3,
+    "constitution": 9,
+    "judgment": 13173,
+    "order": 16,
+    "ordinance": 394,
+    "regulations": 34,
+    "rules": 39,
+    "unknown": 3813
+  },
+  "by_file_validation_status": {
+    "valid_pdf_signature": 18260
+  },
+  "quarantine_reasons": {},
+  "scope_note": "Raw files are preserved. Canonical records deduplicate exact content; OCR and legal currentness remain unverified."
+}

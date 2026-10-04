@@ -1,0 +1,197 @@
+{
+  "generated_at_utc": "2026-08-09T17:06:15.997571+00:00",
+  "raw_pdf_files": 18260,
+  "curated_records": 18260,
+  "canonical_records": 18260,
+  "quarantined_records": 0,
+  "configured_official_sources": 21,
+  "sources_with_physical_files": 19,
+  "source_results": [
+    {
+      "source_id": "ajk_election_commission_laws",
+      "name": "AJK Election Commission - Election Laws",
+      "jurisdiction": "azad_jammu_kashmir",
+      "physical_pdf_files": 5,
+      "accepted_records": 5,
+      "unique_manifest_document_urls": 8
+    },
+    {
+      "source_id": "ajk_legislative_assembly_acts",
+      "name": "AJK Legislative Assembly - Acts",
+      "jurisdiction": "azad_jammu_kashmir",
+      "physical_pdf_files": 1,
+      "accepted_records": 1,
+      "unique_manifest_document_urls": 1
+    },
+    {
+      "source_id": "balochistan_code_laws",
+      "name": "Balochistan Code - Laws",
+      "jurisdiction": "balochistan",
+      "physical_pdf_files": 259,
+      "accepted_records": 259,
+      "unique_manifest_document_urls": 276
+    },
+    {
+      "source_id": "balochistan_code_rules",
+      "name": "Balochistan Code - Rules",
+      "jurisdiction": "balochistan",
+      "physical_pdf_files": 0,
+      "accepted_records": 0,
+      "unique_manifest_document_urls": 276
+    },
+    {
+      "source_id": "balochistan_high_court_reported_judgments",
+      "name": "High Court of Balochistan - Reported and Significant Judgments",
+      "jurisdiction": "courts_balochistan",
+      "physical_pdf_files": 2000,
+      "accepted_records": 2000,
+      "unique_manifest_document_urls": 2001
+    },
+    {
+      "source_id": "federal_pakistan_code",
+      "name": "Pakistan Code - Ministry of Law and Justice",
+      "jurisdiction": "federal",
+      "physical_pdf_files": 127,
+      "accepted_records": 127,
+      "unique_manifest_document_urls": 129
+    },
+    {
+      "source_id": "federal_shariat_court_judgments",
+      "name": "Federal Shariat Court - Judgments",
+      "jurisdiction": "courts_federal",
+      "physical_pdf_files": 828,
+      "accepted_records": 828,
+      "unique_manifest_document_urls": 887
+    },
+    {
+      "source_id": "gilgit_baltistan_assembly_acts",
+      "name": "Gilgit-Baltistan Assembly - Acts",
+      "jurisdiction": "gilgit_baltistan",
+      "physical_pdf_files": 79,
+      "accepted_records": 79,
+      "unique_manifest_document_urls": 88
+    },
+    {
+      "source_id": "gilgit_baltistan_government_acts",
+      "name": "Government of Gilgit-Baltistan - Acts",
+      "jurisdiction": "gilgit_baltistan",
+      "physical_pdf_files": 15,
+      "accepted_records": 15,
+      "unique_manifest_document_urls": 15
+    },
+    {
+      "source_id": "islamabad_high_court_rules",
+      "name": "Islamabad High Court - Rules",
+      "jurisdiction": "courts_federal_ict",
+      "physical_pdf_files": 40,
+      "accepted_records": 40,
+      "unique_manifest_document_urls": 43
+    },
+    {
+      "source_id": "kp_code_laws",
+      "name": "Khyber Pakhtunkhwa Code - Laws",
+      "jurisdiction": "khyber_pakhtunkhwa",
+      "physical_pdf_files": 160,
+      "accepted_records": 160,
+      "unique_manifest_document_urls": 192
+    },
+    {
+      "source_id": "kp_code_rules",
+      "name": "Khyber Pakhtunkhwa Code - Rules",
+      "jurisdiction": "khyber_pakhtunkhwa",
+      "physical_pdf_files": 29,
+      "accepted_records": 29,
+      "unique_manifest_document_urls": 30
+    },
+    {
+      "source_id": "lahore_high_court_downloads",
+      "name": "Lahore High Court - Downloads",
+      "jurisdiction": "courts_punjab",
+      "physical_pdf_files": 0,
+      "accepted_records": 0,
+      "unique_manifest_document_urls": 53
+    },
+    {
+      "source_id": "lahore_high_court_reported_judgments",
+      "name": "Lahore High Court - Judgments Approved for Reporting",
+      "jurisdiction": "courts_punjab",
+      "physical_pdf_files": 4671,
+      "accepted_records": 4671,
+      "unique_manifest_document_urls": 4683
+    },
+    {
+      "source_id": "pakistan_code_archive",
+      "name": "Pakistan Code Federal Legislation Archive",
+      "jurisdiction": "federal",
+      "physical_pdf_files": 721,
+      "accepted_records": 721,
+      "unique_manifest_document_urls": 0
+    },
+    {
+      "source_id": "peshawar_high_court_downloads",
+      "name": "Peshawar High Court - Downloads and Orders",
+      "jurisdiction": "courts_khyber_pakhtunkhwa",
+      "physical_pdf_files": 0,
+      "accepted_records": 0,
+      "unique_manifest_document_urls": 0
+    },
+    {
+      "source_id": "peshawar_high_court_reported_judgments",
+      "name": "Peshawar High Court - Reported Judgments",
+      "jurisdiction": "courts_khyber_pakhtunkhwa",
+      "physical_pdf_files": 5674,
+      "accepted_records": 5674,
+      "unique_manifest_document_urls": 5728
+    },
+    {
+      "source_id": "punjab_code",
+      "name": "The Punjab Code",
+      "jurisdiction": "punjab",
+      "physical_pdf_files": 106,
+      "accepted_records": 106,
+      "unique_manifest_document_urls": 108
+    },
+    {
+      "source_id": "punjab_laws_online",
+      "name": "Punjab Laws Online",
+      "jurisdiction": "punjab",
+      "physical_pdf_files": 63,
+      "accepted_records": 63,
+      "unique_manifest_document_urls": 63
+    },
+    {
+      "source_id": "sindh_assembly_acts",
+      "name": "Provincial Assembly of Sindh - Acts",
+      "jurisdiction": "sindh",
+      "physical_pdf_files": 192,
+      "accepted_records": 192,
+      "unique_manifest_document_urls": 216
+    },
+    {
+      "source_id": "sindh_high_court_laws",
+      "name": "High Court of Sindh - Laws, Acts, Ordinances and Rules",
+      "jurisdiction": "courts_sindh",
+      "physical_pdf_files": 39,
+      "accepted_records": 39,
+      "unique_manifest_document_urls": 1186
+    },
+    {
+      "source_id": "sindh_laws",
+      "name": "Sindh Law, Parliamentary Affairs and Criminal Prosecution Department",
+      "jurisdiction": "sindh",
+      "physical_pdf_files": 3251,
+      "accepted_records": 3251,
+      "unique_manifest_document_urls": 3521
+    }
+  ],
+  "known_coverage_gaps": [
+    "Supreme Court corpus blocked by the official site's HTTP 403 policy",
+    "complete Sindh and Islamabad High Court judgment corpora",
+    "AJK Legislative Assembly index blocked by HTTP 508 redirect loops",
+    "complete federal and provincial Gazette archives",
+    "complete tribunal, regulator, and special-court decision corpora",
+    "law-by-law amendment, commencement, repeal, and applicability certification",
+    "full-text OCR and bilingual Urdu-English normalization"
+  ],
+  "quality_note": "Accepted and canonical records are structurally usable, not lawyer-certified as complete or currently applicable."
+}

@@ -1,16 +1,46 @@
-# Data outputs (too large for git)
-data/extracted/
-data/cleaned/
-data/chunks/
+# Data outputs (too large for git): search index, vectors, model cache, training data, reports
+data/**
+!data/README.md
 vector_db/
+models/
+*.sqlite3
+*.sqlite3-*
+*.npy
+datasets/raw/**/*
+!datasets/raw/.gitkeep
+datasets/manifests/*.jsonl
+!datasets/manifests/.gitkeep
+
+# Original PDF collection and local scratch output
+pdfs/
+tmp/
+
+# OCR service: its own environment and the downloaded llama.cpp build
+ocr/.venv/
+ocr/llama.cpp/
+
+# Local tool settings
+.claude/
 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
+.pytest_cache/
 .env
 venv/
 .venv/
+
+# Node / frontend
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+frontend/.env.local
+*.log
+backend/training/qanoon-model/
+backend/training/runs/
 
 # OS
 .DS_Store

@@ -1,0 +1,6 @@
+# Install the CUDA-enabled torch wheel separately; see training/README.md.
+transformers>=4.57,<5
+peft>=0.18,<0.19
+datasets>=4,<5
+accelerate>=1.12,<2
+pymupdf>=1.28,<2
